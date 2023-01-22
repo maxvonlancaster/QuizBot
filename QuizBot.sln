@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizBot", "QuizBot\QuizBot.csproj", "{961D0B16-FF6A-40BE-887E-6DB9665B74E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizBot.BLL", "QuizBot.BLL\QuizBot.BLL.csproj", "{68A30323-3B2C-43FF-BE89-4FA220066144}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{961D0B16-FF6A-40BE-887E-6DB9665B74E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961D0B16-FF6A-40BE-887E-6DB9665B74E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961D0B16-FF6A-40BE-887E-6DB9665B74E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961D0B16-FF6A-40BE-887E-6DB9665B74E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A30323-3B2C-43FF-BE89-4FA220066144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A30323-3B2C-43FF-BE89-4FA220066144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A30323-3B2C-43FF-BE89-4FA220066144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A30323-3B2C-43FF-BE89-4FA220066144}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00108648-3CD8-4369-A5A9-1519D1F61277}
+	EndGlobalSection
+EndGlobal
