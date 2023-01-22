@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BotLib" Version="1.2.4" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
 
 </Project>

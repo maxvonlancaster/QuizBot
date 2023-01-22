@@ -1,12 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using QuizBot.BLL.Interfaces;
+using Telegram.Bot;
 
 namespace QuizBot.BLL.Services
 {
-    public class MessangerService
+    public class MessangerService : IMessangerService
     {
+        private readonly IQuestionService _questionService;
+        private readonly TelegramBotClient _botClient;
+
+        public MessangerService(
+            IQuestionService questionService,
+            TelegramBotClient telegramBotClient)
+        {
+            _questionService = questionService;
+            _botClient = telegramBotClient;
+        }
+
+        public async Task ListenForMessagesAsync() 
+        {
+        
+        }
     }
 }
